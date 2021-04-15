@@ -1,0 +1,118 @@
+{
+	"type": "Card",
+	"color": "#ffffff",
+	"elevation": 8,
+	"roundedRectangleBorderRadius": 32,
+	"child": {
+		"type": "Padding",
+		"padding": "20,20,20,20",
+		"child": {
+			"type": "Column",
+			"crossAxisAlignment": "start",
+			"children": [
+				{
+					"type": "Row",
+					"children": [
+						{
+							"type": "Column",
+							"mainAxisSize": "min",
+							"crossAxisAlignment": "start",
+							"children": [
+								{
+									"type": "Text",
+									"data": "Hospitalisation",
+									"style": {
+										"fontSize": 24,
+										"fontFamily": "lato",
+										"fontWeight": "bold",
+										"color": "#000000"
+									}
+								},
+								{
+									"type": "SizedBox",
+									"height": 3
+								},
+								{
+									"type": "Text",
+									"data": "Admission to Hospital (Inpatient bill)",
+									"style": {
+										"fontSize": 16,
+										"fontFamily": "lato",
+										"fontWeight": "normal",
+										"color": "#9599B6"
+									}
+								}
+							]
+						},
+						{
+							"type": "Expanded",
+							"child": {
+								"type": "Container"
+							}
+						},
+						{
+							"type": "TextSpan",
+							"text": "0",
+							"style": {
+										"fontSize": 24,
+										"fontFamily": "lato",
+										"fontWeight": "bold",
+										"color": "#000000"
+									},
+							"children": [
+								{
+									"type": "TextSpan",
+									"text": " / 6   Mandatory Items"
+									"style": {
+										"fontSize": 16,
+										"fontFamily": "lato",
+										"fontWeight": "normal",
+										"color": "#9599B6"
+									}
+								}
+							] 
+						}
+					]
+				},
+				{
+					"type": "Container",
+					"margin": "0,20,0,20",
+					"height": 1,
+					"width": 2000,
+					"color": "#9599B6"
+				},
+				{
+					"type": "Column",
+					"mainAxisSize": "min",
+					"crossAxisAlignment": "start",
+					"children": [
+						{
+							"type": "Text",
+							"data": "Total Bill Amount",
+							"style": {
+								"fontSize": 16,
+								"fontFamily": "lato",
+								"fontWeight": "bold",
+								"color": "#000000"
+							}
+						},
+						{
+							"type": "SizedBox",
+							"height": 3
+						},
+						{
+							"type": "TextField",
+							"name": "txtTotalBillAmount",
+							"page": "hospitalisation",
+							"compulsory": true,
+							"numeric": true,
+							"max": 3000,
+							"labelText": "",
+							"hintText": "RM 0.00"
+						}
+					]
+				}
+			]
+		}
+	}
+}
