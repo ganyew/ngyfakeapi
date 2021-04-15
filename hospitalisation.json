@@ -73,44 +73,6 @@
 							] 
 						}
 					]
-				},
-				{
-					"type": "Container",
-					"margin": "0,20,0,20",
-					"height": 1,
-					"width": 2000,
-					"color": "#9599B6"
-				},
-				{
-					"type": "Column",
-					"mainAxisSize": "min",
-					"crossAxisAlignment": "start",
-					"children": [
-						{
-							"type": "Text",
-							"data": "Total Bill Amount",
-							"style": {
-								"fontSize": 16,
-								"fontFamily": "Lato",
-								"fontWeight": "bold",
-								"color": "#000000"
-							}
-						},
-						{
-							"type": "SizedBox",
-							"height": 3
-						},
-						{
-							"type": "TextField",
-							"name": "txtTotalBillAmount",
-							"page": "hospitalisation",
-							"compulsory": true,
-							"numeric": true,
-							"max": 3000,
-							"labelText": "",
-							"hintText": "RM 0.00"
-						}
-					]
 				}
 			]
 		}
