@@ -23,7 +23,7 @@
 									"data": "Hospitalisation",
 									"style": {
 										"fontSize": 24,
-										"fontFamily": "lato",
+										"fontFamily": "Lato",
 										"fontWeight": "bold",
 										"color": "#000000"
 									}
@@ -37,7 +37,7 @@
 									"data": "Admission to Hospital (Inpatient bill)",
 									"style": {
 										"fontSize": 16,
-										"fontFamily": "lato",
+										"fontFamily": "Lato",
 										"fontWeight": "normal",
 										"color": "#9599B6"
 									}
@@ -55,7 +55,7 @@
 							"text": "0",
 							"style": {
 										"fontSize": 24,
-										"fontFamily": "lato",
+										"fontFamily": "Lato",
 										"fontWeight": "bold",
 										"color": "#000000"
 									},
@@ -65,7 +65,7 @@
 									"text": " / 6   Mandatory Items",
 									"style": {
 										"fontSize": 16,
-										"fontFamily": "lato",
+										"fontFamily": "Lato",
 										"fontWeight": "normal",
 										"color": "#9599B6"
 									}
@@ -91,7 +91,7 @@
 							"data": "Total Bill Amount",
 							"style": {
 								"fontSize": 16,
-								"fontFamily": "lato",
+								"fontFamily": "Lato",
 								"fontWeight": "bold",
 								"color": "#000000"
 							}
